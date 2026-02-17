@@ -82,3 +82,61 @@ Tool for writing SOPs
 Show how few people are using AI in operations
 UPSELL
 
+
+Q3. What do we offer?
+
+🔹 My Version
+
+In terms of what we offer, well, we offer something known as the BLUR framework that these folks can apply, and everything that we do revolves around the BLUR framework. A BLUR framework is in accordance to our curriculum, where initially we figure out the founder problems, show them the founder vision, help them figure out what are the core processes in their business, and what their ultimate goal should be. Eventually, we help them write systems for their core processes, help them write SOPs for these, which are AI-ready SOPs, and eventually, we help them how to track them, how to write key results and measure these SOPs and measure their progress, et cetera. And finally, we also help them, we give them lots of dashboards, AI-ready things, such that they can easily review, track, and go about their journey with the systems in hand, right? So that’s a very core framework that we have.
+
+Now, in accordance to this framework, what we offer is number one, we offer a free community for six-figure founders. This is gated, and over here, we teach people how we do certain things which are AI-ready, how we create systems, how we create SOPs, and everything around that, right? This is the place where we educate people. This is the place where the six-figure founders can gather, they can see what all we have to offer, what all lead magnets they can grab from us, et cetera. So that is the role of the community.
+
+Next, we provide a bootcamp, which is almost $3,000. And this is a four-week bootcamp where each week, we talk about how they can build core processes, systems. We also have cards or scorecards for founder mental health, founder hours, etc., founder clarity, etc., because these four weeks are not just for your business, this is also for your alignment as a founder to your business and your bigger goals. So in these four weeks, we teach the mentor and how to build SOPs, how to create systems, processes, how to document things, how to be wary about your objectives and key results, and all the dashboards that you can apply. And everything is AI-ready. So these are like AI-ready SOPs, AI-ready documents, AI-ready systems, and AI-ready dashboards, etc. So in this new age of AI, you should be upgrading yourself as well. You should be going hand to hand with AI such that you do not fall behind, right? So then we offer the bootcamp.
+
+After the bootcamp, if anyone wants to integrate systems, infrastructure inside their business, we offer our own software for almost $12,000, and they can use that software to keep track of systems, documentations, everything within their organization. In case people want custom automations or custom systems that needs to be built for them, then the pricing starts from $20,000 and we sit with the business, we figure out each and everything going on inside that business, and we build out the right systems for them that are custom. So these are the things that we are offering as of now. Apart from that, in our top funnel, we have, of course, the community that I talked about, and we also have a set of lead magnets that we share with people.
+
+
+🔹 Clean Version (Refined)
+
+In terms of our offerings, everything revolves around the BLUR Framework.
+
+The BLUR Framework begins by identifying founder problems and clarifying the founder’s vision. From there, we help define core business processes and align them with long-term goals. We then guide founders in building structured systems and writing AI-ready SOPs for those processes. After implementation, we help them define key results, track performance, measure progress, and use AI-ready dashboards to review and optimize their systems continuously.
+
+Based on this framework, we offer:
+
+1. Free Gated Community (Top of Funnel)
+
+A curated community for six-figure founders where we:
+	•	Teach system thinking
+	•	Demonstrate AI-ready SOP creation
+	•	Share lead magnets
+	•	Educate founders on becoming AI-ready and operationally strong
+
+This is our primary education and awareness channel.
+
+2. Four-Week Bootcamp (~$3,000)
+
+A structured, implementation-driven program where founders:
+	•	Identify and define core processes
+	•	Build systems and SOPs
+	•	Create OKRs and measurable key results
+	•	Implement dashboards
+	•	Develop AI-ready documentation
+
+We also include founder scorecards covering mental health, working hours, and clarity—because alignment between the founder and the business is essential for sustainable growth.
+
+3. System Infrastructure Software (~$12,000)
+
+Post-bootcamp, founders can integrate our proprietary software to manage systems, documentation, and organizational tracking within their company.
+
+4. Custom Systems & Automation Build (Starting at $20,000)
+
+For founders needing deeper implementation, we offer custom-built systems and automation. We audit the entire business, design tailored infrastructure, and build the right operational architecture for scalability.
+
+In addition to these core offers, our top funnel includes the gated community and multiple lead magnets designed to attract and educate six-figure founders.
+
+Everything we provide is AI-ready and designed to help founders scale without becoming the bottleneck.
+
+
+Q4. Who is our audience?
+
