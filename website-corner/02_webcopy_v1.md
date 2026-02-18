@@ -22,73 +22,22 @@
 ## SECTION 1: HERO
 
 ### Eyebrow / Pre-Headline Tags (pick one)
+`A live bootcamp for 6-figure founders ready to stop running everything`
 
-1. `For agency owners doing $200K-$750K who are done being the bottleneck`
-2. `The 4-week system for founders who are successful and exhausted`
-3. `A live bootcamp for six-figure founders ready to stop running everything`
+### Headline
+Reimagine your business, that grows without you
 
-### Headline Options (15)
+### Subheadline Options
+Join 4 weeks of live sessions, build your SOPs with AI, install OKR dashboards, and walk away with a business that doesn't collapse the moment you close your laptop.
 
-**[Outcome] in [Timeframe]:**
-1. Remove Yourself as the Bottleneck in 4 Weeks
-2. Build a Business That Runs Without You in 28 Days
-3. Go From Doing Everything to Leading Everything — in One Month
-4. Get 20+ Hours Back Per Week in 4 Weeks Flat
-
-**Problem-to-Solution:**
-5. You Built a Six-Figure Business. It's Eating You Alive. Here's How You Fix It.
-6. Stop Running Your Business Like a Hostage Negotiation
-7. Your Agency Shouldn't Need You Like a Baby Needs a Bottle
-8. The Reason Your Agency Breaks Every Time You Step Away — and How to Fix It in 4 Weeks
-
-**[Result] Without [Objection]:**
-9. Build Real Systems for Your Agency — Without Hiring an Expensive OBM or Spending a Year on Implementation
-10. Get Your Agency Running Without You — Without Burning Down What You've Already Built
-11. Finally Step Back From Day-to-Day Operations — Without Losing Quality, Clients, or Revenue
-12. Systematize Your Entire Agency in 4 Weeks — Without Another PM Tool Collecting Dust
-
-**Identity-Based:**
-13. Stop Being Your Own Worst Employee
-14. You Wanted to Be a Founder. Not a Hostage. Time to Act Like It.
-15. From Glorified Freelancer to Actual CEO — in 28 Days
-
-### Subheadline Options (15)
-
-1. BlurOps is a live 4-week bootcamp that gives six-figure agency founders the systems, SOPs, and AI-powered workflows to stop doing everything themselves — so you can finally lead instead of labor.
-2. The live bootcamp where burnt-out agency owners build documented systems, AI-ready SOPs, and measurable OKRs — in 4 weeks, not 4 months.
-3. A structured, live program that takes you from "I am the bottleneck" to "my team runs this" in 28 days. With AI doing the heavy lifting on repeatable tasks.
-4. You're making six figures and working more than ever. BlurOps gives you the systems to change that in 4 weeks — with live coaching, AI tools, and a step-by-step framework.
-5. Join 4 weeks of live sessions, build your SOPs with AI, install OKR dashboards, and walk away with a business that doesn't collapse the moment you close your laptop.
-6. Most agency owners at your stage have tried hiring, PM tools, Loom libraries, and masterminds. None of it worked because none of it was structured. BlurOps is.
-7. Stop trying to systematize your agency with willpower and sticky notes. BlurOps gives you the actual framework — built live, with your team, in real time.
-8. Every week you stay as the bottleneck costs you revenue, sanity, and years off your life. This 4-week bootcamp builds the infrastructure so you can finally step back.
-9. Documented SOPs. AI-powered workflows. OKR dashboards. Team accountability structures. All built in 4 weeks. All specific to your agency.
-10. You don't need another course. You need someone to sit with you for 4 weeks and help you build the systems your business should have had two years ago.
-11. The founder-to-founder bootcamp for agency owners doing $200K-$750K who are tired of being the support team, the dev team, and the sales team all at once.
-12. You've read E-Myth. You've tried Traction. You bought the project management software. Now it's time to actually implement — with a guide, a framework, and AI on your side.
-13. Four weeks. Live sessions. AI-built SOPs. A dashboard that tells you exactly what's working. And a business that doesn't fall apart when you take a Tuesday off.
-14. Built for the agency owner who's successful on paper and drowning in reality. Four weeks to fix the foundation.
-15. Your revenue grew. Your freedom didn't. BlurOps fixes the gap in 4 weeks with systems that actually stick.
-
-### CTA Button Text Options (4)
-
-1. `Yes — I'm Ready to Apply`
-2. `Apply for the Next Cohort`
-3. `I Want My Agency to Run Without Me`
-4. `Apply Now — Limited Spots`
+### CTA Button Text Options
+`Apply for the Next Cohort`
 
 ### Secondary Micro-Lines (below CTA button)
-
-1. Only 15 spots per cohort. Next cohort starts [DATE].
-2. Application takes 2 minutes. We'll confirm fit within 24 hours.
-3. No commitment until you speak with our team.
-4. Join founders from agencies doing $200K-$750K/year.
+Join founders from agencies doing $200K-$750K/year.
 
 ### Risk Reducer Lines (below CTA area)
-
-1. 60-day money-back guarantee. If you don't see the path forward, you pay nothing.
-2. Backed by a 60-day guarantee — you either see results or you get a full refund.
-3. Risk-free: 60-day money-back guarantee, no questions asked.
+Backed by a 60-day guarantee — you either see results or you get a full refund.
 
 ---
 
@@ -100,18 +49,12 @@ Place directly below the hero section, above the fold on desktop. Use a horizont
 ### Stat Callout Options (choose 3-4)
 
 1. **69.6%** — Worldwide burnout rate in marketing and advertising agencies *(Forecast.app)*
-2. **85%** — Of agency owners believe burnout will get worse, not better *(Teamwork.com)*
-3. **90%** — Of agency owners under 55 who sell cite burnout as the deciding factor *(IA Magazine)*
-4. **Only 36%** — Of agency leaders say their agency "runs like a well-oiled machine" *(4As/PCI)*
-5. **1 in 5** — Small agency owners don't pay themselves a regular salary *(SAGA Q4 2024)*
-6. **4 weeks** — Average time to build documented SOPs, OKRs, and AI workflows in BlurOps
-7. **[X] founders** — Have completed the BlurOps bootcamp *(placeholder — update with real number)*
+2. **90%** — Of agency owners under 55 who sell cite burnout as the deciding factor *(IA Magazine)*
+3. **Only 36%** — Of agency leaders say their agency "runs like a well-oiled machine" *(4As/PCI)*
+4. **1 in 5** — Small agency owners don't pay themselves a regular salary *(SAGA Q4 2024)*
 
 ### "As Seen In" / Community Size Options
-
-1. `Trusted by agency founders doing $200K-$750K/year`
-2. `[X]+ founders in the BlurOps community` *(update with real number)*
-3. `Built from patterns across [X] agencies in marketing, design, SEO, and consulting` *(update with real number)*
+`Built from patterns across 50+ agencies in marketing, design, SEO, and consulting` 
 
 ---
 
@@ -119,22 +62,8 @@ Place directly below the hero section, above the fold on desktop. Use a horizont
 
 ### Section Headline Options (4)
 
-1. You're Successful. You're Exhausted. And Nobody Talks About That Combination.
-2. You Built This Business to Be Free. So Why Does It Feel Like a Prison?
-3. Six Figures. Sixty-Hour Weeks. Zero Margin for Life.
-4. Here's What No One Tells You About Running a "Successful" Agency
+You Built This Business to Be Free. Here's What No One Tells You About.
 
-### Intro Paragraph
-
-You're past the hard part. You have clients. Revenue. A team that relies on you. From the outside, you've made it.
-
-But here's the truth you don't talk about at networking events:
-
-You're the support team, the dev team, and the sales team all at once. You are the bottleneck. And every single thing in your business still runs through you.
-
-You check Slack before you kiss your kids good morning. You haven't taken a real vacation in years — and the last time you tried, three fires broke out before you landed. Sunday nights already feel like Monday.
-
-You made it. So why does it feel like a prison?
 
 ### Pain Bullets (12)
 
@@ -167,150 +96,9 @@ Here's what staying in this pattern actually costs you. Not in theory. In real n
 
 **Your business value:** A business that can't function without you isn't sellable. It's not an asset. It's a liability with your name on it. If everything still runs through you, you don't have a business — you have a job you can't quit.
 
-### Cost-of-Inaction Math
 
-Let's be blunt about the numbers:
 
-| What it costs you | Per month | Per year |
-|---|---|---|
-| Hours lost to low-value tasks (15-25 hrs/wk) | 60-100 hours | 780-1,300 hours |
-| Revenue lost to the bottleneck (conservative) | $8K-$16K | $100K-$200K |
-| Stress-related health costs | Hard to quantify | But you're already feeling it |
-| Business valuation discount (unsellable) | — | 40-60% of potential value gone |
-
-Every month you wait, you pay this tax. The only question is whether you keep paying it or you build the infrastructure to stop.
-
-### Bridge Statement
-
-And look — this isn't a character flaw. Nobody taught you how to build the operational layer of a business. You were taught to deliver great work. You were taught to get clients. You were taught to grind.
-
-Nobody handed you a blueprint for going from "I do everything" to "my team runs this."
-
-That's what BlurOps exists to fix.
-
----
-
-## SECTION 4: DREAM OUTCOME (Before-After-Bridge — "After")
-
-### Section Headline Options (4)
-
-1. What Changes When You're No Longer the Bottleneck
-2. Picture This: A Business That Actually Runs Without You
-3. This Is What the Other Side Looks Like
-4. What Your Monday Morning Could Feel Like in 5 Weeks
-
-### "Imagine If..." Visualization Block
-
-Imagine opening your laptop on Monday morning and seeing a dashboard — not 47 Slack notifications.
-
-A dashboard that shows you exactly which projects are on track, which KPIs moved, and which team member owns what. No guessing. No chasing. No micromanaging.
-
-Imagine your team knowing exactly what to do when a new client onboards — because there's a documented SOP for it. Not a Loom video you recorded at midnight eighteen months ago. An actual, AI-maintained, step-by-step process that your team follows without you hovering.
-
-Imagine taking a Wednesday off — not because you're burned out, but because you want to. And when you come back Thursday, nothing is on fire. Nothing fell through the cracks. The system held.
-
-Imagine looking at your week and seeing that 15-20 hours you used to spend on client delivery, internal firefighting, and task management are just... gone. Replaced by structured processes and AI workflows that handle the repeatable parts.
-
-Imagine reviewing your 90-day OKRs and actually knowing whether you're on track — because every key result is measured, every process has an owner, and every outcome has a scorecard.
-
-Imagine feeling like a founder again. Not a hostage. Not a babysitter. Not a glorified freelancer with a team that can't function without you.
-
-That's what the other side of BlurOps looks like.
-
-And it takes four weeks to get there.
-
-### Before vs. After Contrast List
-
-| BEFORE BlurOps | AFTER BlurOps |
-|---|---|
-| You are the bottleneck for every decision | Your team owns processes end to end |
-| SOPs live in your head (or in outdated Loom videos) | Documented, AI-ready SOPs your team actually uses |
-| No way to measure what's working | OKR dashboard with key results for every core process |
-| Hiring means more management, not less work | New hires plug into existing systems from day one |
-| "Taking a day off" means catching up for two | Your business runs the same whether you're there or not |
-| You react to fires all day | You review dashboards, coach your team, and work on growth |
-| Revenue growth = more hours from you | Revenue growth = better systems, not more of your time |
-| Sunday nights feel like Monday mornings | Weekends are actually weekends |
-| You're making more money and enjoying life less | Your income and your quality of life both grow |
-| Your business is unsellable because it IS you | Your business has documented, transferable infrastructure |
-
----
-
-## SECTION 5: STORY + TRANSFORMATION (PASTOR S + T)
-
-### Section Headline Options (4)
-
-1. Why Nothing You've Tried Has Actually Worked (and What Will)
-2. You're Not Broken. Your Business Just Doesn't Have a Backbone.
-3. The Real Reason You're Still Stuck — Even After Everything You've Tried
-4. Every Agency Owner Hits This Wall. Here's the Way Through It.
-
-### The Pattern Every Founder Follows
-
-Here's the pattern. See if it sounds familiar.
-
-**Stage 1: You hire someone to help.**
-Maybe a VA. Maybe a junior. Maybe a full-time employee. You're excited — finally, someone to take things off your plate. But within weeks, you realize you're spending just as much time managing them as you were doing the work yourself. Because there are no systems for them to follow. No documentation. No structure. They ask you seventeen questions a day, and you answer every one of them. The hire didn't remove the bottleneck. It added a management layer on top of it.
-
-**Stage 2: You buy a tool.**
-Asana. ClickUp. Monday. Notion. You set it up over a weekend. Customize the boards. Build the workflows. And then... nobody uses it. Or everybody uses it differently. The tool sits there, half-populated, a digital graveyard of good intentions. Because a tool without a system behind it is just expensive shelfware.
-
-**Stage 3: You try to document everything yourself.**
-You open Loom. You record 45 minutes of yourself doing a task. You save it somewhere. You never link it anywhere useful. It's outdated in three months. You repeat this for two more processes and then abandon the project because who has time to record SOPs when you're already drowning? Documentation by willpower doesn't work. It never has.
-
-**Stage 4: You read the books.**
-E-Myth. Traction. Built to Sell. You underline passages. You feel inspired for a week. You even start implementing EOS — you get through the Vision/Traction Organizer, maybe one quarterly planning session. Then the day-to-day pulls you back in. Implementation stalls. The books were right about the problem. They just didn't hand you the actual infrastructure to fix it.
-
-**Stage 5: You join a mastermind or hire a coach.**
-$10K-$25K later, you have great conversations, some accountability, maybe a few frameworks drawn on a whiteboard. But nobody sat down with you and built the systems. Nobody watched you break down your processes step by step and said, "Here — this is where AI takes over." You got strategy. What you needed was structure.
-
-Sound familiar?
-
-Here's what every single one of those failed attempts has in common: **none of them gave you the actual operational infrastructure your business needs.** They gave you ideas, tools, inspiration, and advice. But nobody helped you build the backbone.
-
-That's not a motivation problem. That's not a discipline problem. It's a structural one.
-
-### StoryBrand Reframe
-
-Let's be direct about something.
-
-You're not the problem here. You're the hero of this story. You built a real business from nothing. You figured out how to get clients, deliver results, and keep the lights on — often with no training, no playbook, and no safety net.
-
-The issue isn't that you lack drive or intelligence. The issue is that you were never given a framework for building the operational layer that sits between "I do everything" and "my team runs this."
-
-BlurOps is the guide. Not the hero. You are.
-
-Our job is to hand you the framework, walk beside you for four weeks while you build the systems, and make sure that when you walk out the other side, your business has a backbone that doesn't depend on your personal involvement in every single task.
-
-You bring the knowledge of your business. We bring the structure, the AI tools, and the implementation process to turn that knowledge into documented, measurable, transferable systems.
-
-### The BLUR Framework
-
-That framework is called BLUR. Four stages. Four weeks. One outcome: a business that runs without you at the center of every decision.
-
-**B — Build Clarity**
-
-Before you can fix the bottleneck, you need to see it clearly. In the Build Clarity phase, you map your current state against your desired state. You identify the 3-5 core processes that actually drive your business. You redesign your role as founder — specifically, what you need to stop doing. And you set 90-day OKRs so you know exactly what success looks like. No vague goals. Measurable objectives with a dashboard to track them.
-
-*This is where most founders realize that 60-70% of what they do every week doesn't actually require them at all.*
-
-**L — Layer in Systems**
-
-Clarity without structure is just awareness. In the Layer phase, you break down each core process into its components: trigger, steps, owner, output. You separate high-value founder work from low-value task work. You build your accountability chart — who owns what, and how you know it's getting done. You create the first round of SOPs, built with AI from the start so they're maintainable and scalable — not another set of documents that go stale in a month.
-
-*This is where your business goes from "it's all in my head" to "it's all documented and assigned."*
-
-**U — Use AI to Multiply**
-
-This is where BlurOps is different from every systems program that came before it. Once your processes are documented, we show you exactly where AI takes over the repeatable steps. Not theoretical AI. Not "here's a prompt." Live demonstrations of AI running actual SOP steps from your business. You build your second round of SOPs with AI opportunities baked in at every level. Every process gets key results (1-2 metrics each) and a scorecard so you can measure performance without being in the room.
-
-*This is where you go from "I need to hire three more people" to "AI handles 40% of this."*
-
-**R — Run and Track**
-
-Systems without follow-through become shelfware. In the Run phase, you check your hours saved, refine your OKR rhythm, learn to resolve team issues using the framework, and build handoff strategies so nothing falls through the cracks. You get Claude AI skills, pre-built frameworks, and dashboards — including the Founder Clarity Dashboard and an AI-powered SOP writing tool — that keep the system running long after the bootcamp ends.
-
-*This is where the infrastructure becomes self-sustaining.*
+## SECTION 4: STORY + TRANSFORMATION (PASTOR S + T)
 
 ### Before/After BlurOps Transformation
 
@@ -332,14 +120,11 @@ Application takes 2 minutes. We'll confirm fit within 24 hours.
 
 ---
 
-## SECTION 6: OFFER — CURRICULUM (PASTOR O)
+## SECTION 5: OFFER — CURRICULUM (PASTOR O)
 
 ### Section Headline Options (4)
 
-1. What You Build in 4 Weeks (and What You Walk Away With)
-2. Here's Exactly What Happens Inside BlurOps
-3. The 4-Week Roadmap From Bottleneck to Builder
-4. Your Week-by-Week Blueprint for Getting Out of the Weeds
+What You Build in 4 Weeks (and What You Walk Away With)
 
 ### Section Subheadline
 
@@ -462,13 +247,11 @@ This is not theory. These are tangible deliverables you build during the bootcam
 
 ---
 
-## SECTION 7: SOCIAL PROOF
+## SECTION 6: SOCIAL PROOF
 
 ### Section Headline Options (3)
 
-1. You're Not Alone in This. The Numbers Don't Lie.
-2. This Isn't a You Problem. It's an Industry Problem.
-3. The Data Behind the Burnout — and the Founders Who've Lived It
+You're Not Alone in This. The Numbers Don't Lie.
 
 ### Industry Stat Cards (5)
 
@@ -533,36 +316,6 @@ Only **36%** of agency leaders strongly agree their agency "runs like a well-oil
 
 ---
 
-## SECTION 8: WHO THIS IS FOR / NOT FOR
-
-### Section Headline Options (3)
-
-1. Is BlurOps Right for You? (Honest Answer Inside)
-2. This Isn't for Everyone. Here's How to Know If It's for You.
-3. Read This Before You Apply
-
-### This Is for You If...
-
-- You run a service-based agency (marketing, SEO, web design, creative, consulting) doing $200K-$750K per year
-- You have a team of 2-10 people — and you're still the one everyone depends on for decisions, delivery, and direction
-- You've been in business 2-7 years and the early energy that got you here is now the thing that's burning you out
-- You've tried hiring, PM tools, Loom SOPs, or masterminds — and none of it created lasting, operational systems
-- You know you need documented processes and measurable structure — you just haven't had the time, framework, or support to build them
-- You're open to using AI to handle repeatable tasks in your business (you don't need to be technical — we show you exactly how)
-- You're willing to invest 4 weeks of focused effort to build infrastructure that saves you thousands of hours over the next several years
-
-### This Is NOT for You If...
-
-- You're a solopreneur with no team and no plans to build one — this framework requires at least one person besides you to delegate to
-- You're looking for a "set it and forget it" fantasy — BlurOps builds real operational structure, which means you participate in building it
-- You're doing less than $200K/year in revenue — the specific pain points BlurOps solves don't typically hit hard enough until you're past that threshold
-- You want someone else to build the systems while you watch — BlurOps is a guided build, not a done-for-you service (we offer that separately for founders who want it)
-- You're not actually willing to change how you operate day-to-day — if you want to keep being the center of everything, this isn't the right fit
-
-### CTA #4
-
----
-
 **[APPLY NOW — SEE IF YOU QUALIFY]**
 
 We review every application personally. Not everyone is accepted.
@@ -574,11 +327,7 @@ We review every application personally. Not everyone is accepted.
 ## SECTION 9: VALUE STACK + PRICING
 
 ### Section Headline Options (4)
-
-1. Everything You Get Inside BlurOps (and What It's Actually Worth)
-2. Here's What You're Getting — for a Fraction of What It Should Cost
-3. The Investment (and Why It's the Cheapest Decision You'll Make This Year)
-4. What's Included: The Full Breakdown
+What's Included: The Full Breakdown
 
 ### Value Stack Table
 
@@ -614,8 +363,6 @@ That's 85% less than the total value. For a system you'll use for years.
 ### Competitor Anchoring Copy
 
 Let's put $2,997 in real-world context — against the alternatives you've already considered or tried:
-
-**Implementing EOS with a certified facilitator:** $36,000 per year, minimum. And it still doesn't include AI integration, SOP creation, or the dashboards you need to actually measure whether anything is working. You get a framework. You're still responsible for building the infrastructure yourself.
 
 **Joining a high-level mastermind:** $10,000-$25,000 per year. You'll get great conversations and accountability partners. You won't get someone sitting with you for four weeks actually building the systems your specific business needs. Masterminds are about strategy. Your problem is structural.
 
