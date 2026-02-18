@@ -108,6 +108,21 @@ Here's what staying in this pattern actually costs you. Not in theory. In real n
 
 That's not a fantasy. That's a documented, structured, measurable outcome. Built in four weeks.
 
+### Before vs. After Contrast List
+
+| BEFORE BlurOps | AFTER BlurOps |
+|---|---|
+| You are the bottleneck for every decision | Your team owns processes end to end |
+| SOPs live in your head (or in outdated Loom videos) | Documented, AI-ready SOPs your team actually uses |
+| No way to measure what's working | OKR dashboard with key results for every core process |
+| Hiring means more management, not less work | New hires plug into existing systems from day one |
+| "Taking a day off" means catching up for two | Your business runs the same whether you're there or not |
+| You react to fires all day | You review dashboards, coach your team, and work on growth |
+| Revenue growth = more hours from you | Revenue growth = better systems, not more of your time |
+| Sunday nights feel like Monday mornings | Weekends are actually weekends |
+| You're making more money and enjoying life less | Your income and your quality of life both grow |
+| Your business is unsellable because it IS you | Your business has documented, transferable infrastructure |
+
 ### CTA #2
 
 ---
@@ -324,7 +339,7 @@ We review every application personally. Not everyone is accepted.
 
 ---
 
-## SECTION 9: VALUE STACK + PRICING
+## SECTION 7: VALUE STACK + PRICING
 
 ### Section Headline Options (4)
 What's Included: The Full Breakdown
