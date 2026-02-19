@@ -17,20 +17,6 @@
 - **CTA placements:** 5 across the page (Hero, post-framework, post-curriculum, post-qualifier, final)
 - **Pricing psychology:** Anchor against EOS ($36K/yr), masterminds ($10K+), OBMs ($3K-$8K/mo), then reveal $1,599
 
-### Recommended Page Section Ordering (Final)
-
-1. Hero (headline, subheadline, CTA #1, risk reducer)
-2. Trust Bar (industry stats, social proof indicators)
-3. Problem + Amplify (pain quotes, cost of inaction math, bridge)
-4. Dream Outcome (Before-After-Bridge visualization, contrast table)
-5. Story + Transformation (failed solutions pattern, StoryBrand reframe, BLUR Framework, CTA #2)
-6. Curriculum / Offer (Week 1-4 breakdown, master deliverables list, CTA #3)
-7. Social Proof (stat cards, founder quotes, testimonials)
-8. Who This Is For / Not For (qualifier bullets, CTA #4)
-9. Value Stack + Pricing (component table, competitor anchoring, ROI math, guarantee)
-10. FAQ / Objection Handler (8 resistance-framed Q&As)
-11. Founder Credibility (guide positioning, full deliverables recap)
-12. Final CTA + Response (transformation restatement, testimonial, CTA #5, urgency, application steps)
 
 ### Sticky CTA Bar Recommendation
 

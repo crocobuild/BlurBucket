@@ -57,64 +57,69 @@ font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
 
 All sizes use `rem` units with `clamp()` for fluid scaling. Base size: `1rem = 16px`.
 
+**IMPORTANT: Body text minimum is 18px on desktop and 17px on mobile.** This is a hard rule for readability and premium feel.
+
 | Element | Desktop | Tablet | Mobile | Weight | Line Height | Letter Spacing |
 |---------|---------|--------|--------|--------|-------------|----------------|
-| **Display / Hero H1** | 56px (3.5rem) | 44px (2.75rem) | 36px (2.25rem) | 800 (ExtraBold) | 1.1 | -0.02em |
-| **H1** | 48px (3rem) | 40px (2.5rem) | 32px (2rem) | 700 (Bold) | 1.15 | -0.02em |
-| **H2 (Section Headings)** | 36px (2.25rem) | 30px (1.875rem) | 26px (1.625rem) | 700 (Bold) | 1.2 | -0.01em |
-| **H3 (Subsection Headings)** | 24px (1.5rem) | 22px (1.375rem) | 20px (1.25rem) | 600 (SemiBold) | 1.3 | 0 |
-| **H4 (Minor Headings)** | 20px (1.25rem) | 18px (1.125rem) | 18px (1.125rem) | 600 (SemiBold) | 1.35 | 0 |
-| **Body (Large)** | 18px (1.125rem) | 18px (1.125rem) | 16px (1rem) | 400 (Regular) | 1.6 | 0 |
-| **Body (Default)** | 16px (1rem) | 16px (1rem) | 16px (1rem) | 400 (Regular) | 1.6 | 0 |
-| **Body (Small)** | 14px (0.875rem) | 14px (0.875rem) | 14px (0.875rem) | 400 (Regular) | 1.5 | 0 |
-| **Caption / Label** | 12px (0.75rem) | 12px (0.75rem) | 12px (0.75rem) | 500 (Medium) | 1.4 | 0.02em |
-| **Eyebrow / Pre-headline** | 14px (0.875rem) | 14px (0.875rem) | 13px (0.8125rem) | 600 (SemiBold) | 1.4 | 0.08em |
-| **CTA Button Text** | 18px (1.125rem) | 16px (1rem) | 16px (1rem) | 600 (SemiBold) | 1 | 0.01em |
-| **Nav Links** | 15px (0.9375rem) | 15px | 16px (1rem) | 500 (Medium) | 1 | 0.01em |
-| **Stat Numbers** | 48px (3rem) | 40px (2.5rem) | 36px (2.25rem) | 800 (ExtraBold) | 1.1 | -0.02em |
-| **Stat Labels** | 14px (0.875rem) | 14px | 13px | 400 (Regular) | 1.4 | 0.01em |
-| **Blockquote / Pull Quote** | 20px (1.25rem) | 18px (1.125rem) | 17px (1.0625rem) | 400 (Regular) Italic | 1.5 | 0 |
+| **Display / Hero H1** | 64px (4rem) | 48px (3rem) | 40px (2.5rem) | 800 (ExtraBold) | 1.08 | -0.025em |
+| **H1** | 52px (3.25rem) | 44px (2.75rem) | 36px (2.25rem) | 700 (Bold) | 1.12 | -0.02em |
+| **H2 (Section Headings)** | 40px (2.5rem) | 34px (2.125rem) | 30px (1.875rem) | 700 (Bold) | 1.18 | -0.015em |
+| **H3 (Subsection Headings)** | 28px (1.75rem) | 24px (1.5rem) | 22px (1.375rem) | 600 (SemiBold) | 1.3 | -0.005em |
+| **H4 (Minor Headings)** | 22px (1.375rem) | 20px (1.25rem) | 20px (1.25rem) | 600 (SemiBold) | 1.35 | 0 |
+| **Body (Large)** | 20px (1.25rem) | 19px (1.1875rem) | 18px (1.125rem) | 400 (Regular) | 1.7 | 0 |
+| **Body (Default)** | 18px (1.125rem) | 18px (1.125rem) | 17px (1.0625rem) | 400 (Regular) | 1.7 | 0.005em |
+| **Body (Small)** | 16px (1rem) | 15px (0.9375rem) | 15px (0.9375rem) | 400 (Regular) | 1.6 | 0.005em |
+| **Caption / Label** | 13px (0.8125rem) | 13px (0.8125rem) | 12px (0.75rem) | 500 (Medium) | 1.4 | 0.02em |
+| **Eyebrow / Pre-headline** | 15px (0.9375rem) | 14px (0.875rem) | 13px (0.8125rem) | 600 (SemiBold) | 1.4 | 0.1em |
+| **CTA Button Text** | 18px (1.125rem) | 17px (1.0625rem) | 16px (1rem) | 600 (SemiBold) | 1 | 0.02em |
+| **Nav Links** | 16px (1rem) | 15px (0.9375rem) | 16px (1rem) | 500 (Medium) | 1 | 0.01em |
+| **Stat Numbers** | 52px (3.25rem) | 44px (2.75rem) | 38px (2.375rem) | 800 (ExtraBold) | 1.1 | -0.02em |
+| **Stat Labels** | 15px (0.9375rem) | 15px | 14px | 400 (Regular) | 1.5 | 0.01em |
+| **Blockquote / Pull Quote** | 22px (1.375rem) | 20px (1.25rem) | 18px (1.125rem) | 400 (Regular) Italic | 1.6 | 0 |
 
 ### Fluid Typography CSS (clamp)
 
 ```css
 :root {
   /* Display / Hero */
-  --text-display: clamp(2.25rem, 5vw, 3.5rem);
+  --text-display: clamp(2.5rem, 5.5vw, 4rem);
 
   /* H1 */
-  --text-h1: clamp(2rem, 4vw, 3rem);
+  --text-h1: clamp(2.25rem, 4.5vw, 3.25rem);
 
   /* H2 */
-  --text-h2: clamp(1.625rem, 3vw, 2.25rem);
+  --text-h2: clamp(1.875rem, 3.5vw, 2.5rem);
 
   /* H3 */
-  --text-h3: clamp(1.25rem, 2.5vw, 1.5rem);
+  --text-h3: clamp(1.375rem, 2.5vw, 1.75rem);
 
   /* H4 */
-  --text-h4: clamp(1.125rem, 2vw, 1.25rem);
+  --text-h4: clamp(1.25rem, 2vw, 1.375rem);
 
   /* Body Large */
-  --text-body-lg: clamp(1rem, 1.5vw, 1.125rem);
+  --text-body-lg: clamp(1.125rem, 1.6vw, 1.25rem);
 
-  /* Body Default */
-  --text-body: 1rem; /* Always 16px — do not go below this */
+  /* Body Default — NEVER below 17px (1.0625rem) */
+  --text-body: clamp(1.0625rem, 1.4vw, 1.125rem);
+
+  /* Body Small */
+  --text-body-sm: clamp(0.9375rem, 1.2vw, 1rem);
 
   /* Eyebrow */
-  --text-eyebrow: clamp(0.8125rem, 1.2vw, 0.875rem);
+  --text-eyebrow: clamp(0.8125rem, 1.2vw, 0.9375rem);
 
   /* Stats */
-  --text-stat: clamp(2.25rem, 4vw, 3rem);
+  --text-stat: clamp(2.375rem, 4.5vw, 3.25rem);
 }
 ```
 
 ### Typography Rules
 
-1. **Maximum line length:** 65–75 characters for body text (approximately `max-width: 680px` for 16px body). This is critical for readability.
+1. **Maximum line length:** 65–75 characters for body text (approximately `max-width: 720px` for 18px body). This is critical for readability.
 2. **Paragraph spacing:** `margin-bottom: 1.5em` between paragraphs.
 3. **Heading spacing:** Headings get `margin-top: 2em` and `margin-bottom: 0.75em` relative to their font size.
-4. **Never go below 16px** for any readable body text on any screen size. This is a hard rule for accessibility.
-5. **Eyebrow text** is always uppercase with wide letter-spacing (0.08em).
+4. **Never go below 17px** for any readable body text on any screen size. 18px is the preferred default. This is a hard rule for accessibility and premium feel.
+5. **Eyebrow text** is always uppercase with wide letter-spacing (0.1em).
 6. **Bold emphasis** within body text uses weight 600 (SemiBold), not 700, to avoid visual heaviness in paragraphs.
 7. **No underlines** except for text links on hover.
 
@@ -122,11 +127,11 @@ All sizes use `rem` units with `clamp()` for fluid scaling. Base size: `1rem = 1
 
 ## 3. Color System
 
-### Design Decision: Near-Black + Orange Accent
+### Design Decision: Near-Black + Electric Blue Accent
 
 **Why not pure black (#000000)?** Pure black creates harsh contrast against white text that causes eye strain on extended reading. A near-black (#0A0A0F) with a subtle cool undertone feels premium, reduces fatigue, and creates depth when layered with card surfaces.
 
-**Why orange as the primary accent?** Orange combines energy with warmth. On dark backgrounds, it creates one of the highest-contrast, most visible accent colors. In color psychology, orange signals urgency without aggression, action without anxiety — perfect for CTAs targeting a burned-out audience who needs motivation, not pressure. Orange also stands out in a B2B landscape dominated by blues and greens.
+**Why blue as the primary accent?** Blue conveys trust, intelligence, and professionalism — exactly the qualities a burnt-out founder needs to see from a business solutions provider. On dark backgrounds, electric blue (#5271FF) creates exceptional contrast and visibility while feeling authoritative rather than aggressive. Blue is the dominant color in enterprise SaaS and high-trust B2B applications, signaling credibility. Combined with cyan highlights (#2CBBFF), it creates a modern, tech-forward palette that differentiates BlurOps from guru-style course pages while maintaining a calm, focused aesthetic.
 
 ### Color Palette
 
@@ -135,81 +140,90 @@ All sizes use `rem` units with `clamp()` for fluid scaling. Base size: `1rem = 1
 | Token | Hex | Usage |
 |-------|-----|-------|
 | `--bg-primary` | `#0A0A0F` | Main page background — near-black with subtle blue-purple undertone |
-| `--bg-secondary` | `#12121A` | Card backgrounds, elevated surfaces |
-| `--bg-tertiary` | `#1A1A24` | Hover states, nested elements, input fields |
-| `--bg-elevated` | `#22222E` | Modal backgrounds, dropdown menus, tooltips |
-| `--bg-accent-subtle` | `rgba(255, 107, 53, 0.08)` | Subtle orange tint for highlighted sections |
+| `--bg-secondary` | `#10101A` | Card backgrounds, elevated surfaces |
+| `--bg-tertiary` | `#181828` | Hover states, nested elements, input fields |
+| `--bg-elevated` | `#20203A` | Modal backgrounds, dropdown menus, tooltips |
+| `--bg-accent-subtle` | `rgba(82, 113, 255, 0.07)` | Subtle blue tint for highlighted sections |
 
 #### Text Colors
 
 | Token | Hex | Usage | Contrast on #0A0A0F |
 |-------|-----|-------|---------------------|
 | `--text-primary` | `#FFFFFF` | Headings (H1, H2) — pure white for maximum impact | 19.5:1 |
-| `--text-secondary` | `#E0E0E6` | Body text — slightly off-white to reduce eye strain | 14.8:1 |
-| `--text-tertiary` | `#9999A8` | Supporting text, labels, secondary info | 6.2:1 |
-| `--text-muted` | `#666680` | Disabled text, footnotes, fine print | 3.8:1 |
-| `--text-accent` | `#FF6B35` | Highlighted keywords, accent text | 5.1:1 |
+| `--text-secondary` | `#D8D8E8` | Body text — slightly off-white with cool tint to reduce eye strain | 14.2:1 |
+| `--text-tertiary` | `#9090A8` | Supporting text, labels, secondary info | 6.0:1 |
+| `--text-muted` | `#606080` | Disabled text, footnotes, fine print | 3.6:1 |
+| `--text-accent` | `#5271FF` | Highlighted keywords, accent text | 5.3:1 |
 
 #### Brand / Accent Colors
 
 | Token | Hex | Usage |
 |-------|-----|-------|
-| `--accent-primary` | `#FF6B35` | Primary CTA buttons, key highlights, active states |
-| `--accent-primary-hover` | `#FF8555` | CTA hover state — slightly lighter and warmer |
-| `--accent-primary-active` | `#E55A2B` | CTA pressed/active state — slightly darker |
-| `--accent-primary-glow` | `rgba(255, 107, 53, 0.25)` | Glow effect behind CTA buttons (box-shadow) |
-| `--accent-secondary` | `#6B46C1` | Secondary highlights, tags, badges, framework labels |
-| `--accent-secondary-hover` | `#7C5CD0` | Secondary hover state |
+| `--accent-primary` | `#5271FF` | Primary CTA buttons, key highlights, active states |
+| `--accent-primary-hover` | `#6B87FF` | CTA hover state — slightly lighter and brighter |
+| `--accent-primary-active` | `#4060E0` | CTA pressed/active state — slightly darker |
+| `--accent-primary-glow` | `rgba(82, 113, 255, 0.25)` | Glow effect behind CTA buttons (box-shadow) |
+| `--accent-secondary` | `#2CBBFF` | Secondary highlights, tags, badges, framework labels, cyan accent |
+| `--accent-secondary-hover` | `#50CCFF` | Secondary hover state |
+| `--accent-tertiary` | `#01FEFF` | Sparingly used for special emphasis, glow effects, stat highlights |
 
 #### Borders & Dividers
 
 | Token | Hex | Usage |
 |-------|-----|-------|
-| `--border-default` | `#1F1F2E` | Default card borders, subtle separators |
-| `--border-hover` | `#2E2E40` | Hover state borders |
-| `--border-accent` | `rgba(255, 107, 53, 0.3)` | Accent-colored borders for emphasis |
-| `--divider` | `#1A1A24` | Horizontal section dividers |
+| `--border-default` | `#1C1C32` | Default card borders, subtle separators |
+| `--border-hover` | `#2A2A48` | Hover state borders |
+| `--border-accent` | `rgba(82, 113, 255, 0.3)` | Accent-colored borders for emphasis |
+| `--divider` | `#181828` | Horizontal section dividers |
 
 #### Semantic / Utility Colors
 
 | Token | Hex | Usage |
 |-------|-----|-------|
-| `--success` | `#34D399` | Success indicators, positive stats |
+| `--success` | `#34D399` | Success indicators, positive stats, "after" states |
 | `--warning` | `#FBBF24` | Warning states, attention items |
-| `--error` | `#F87171` | Error states, critical stats (burnout %) |
-| `--info` | `#60A5FA` | Informational elements, links |
+| `--error` | `#F87171` | Error states, critical stats (burnout %), "before" pain states |
+| `--info` | `#2CBBFF` | Informational elements, links (uses accent-secondary) |
 
 ### Color Usage Rules
 
-1. **60-30-10 Rule:** 60% dark backgrounds, 30% text (white/off-white), 10% accent orange.
-2. **CTA buttons** are the ONLY elements that use `--accent-primary` at full saturation. Everything else gets the desaturated or transparent variant.
-3. **Never use orange for body text** — only for short highlights, tags, or single keywords within a sentence.
+1. **60-30-10 Rule:** 60% dark backgrounds, 30% text (white/off-white), 10% accent blue.
+2. **CTA buttons** are the ONLY elements that use `--accent-primary` at full saturation as a background fill. Everything else gets the desaturated or transparent variant.
+3. **Never use blue for body text** — only for short highlights, tags, or single keywords within a sentence.
 4. **Section backgrounds alternate** between `--bg-primary` and `--bg-secondary` to create visual rhythm between page sections.
-5. **Gradient usage** is minimal. If used, always subtle: `linear-gradient(180deg, #0A0A0F 0%, #12121A 100%)`.
-6. **Stats and numbers** that represent pain (69.6%, 85%) use `--error` (#F87171). Stats that represent positive outcomes use `--success` (#34D399).
+5. **Gradient usage** is minimal. If used, always subtle: `linear-gradient(180deg, #0A0A0F 0%, #10101A 100%)`.
+6. **Stats and numbers** that represent pain (69.6%, 90%) use `--error` (#F87171). Stats that represent positive outcomes use `--success` (#34D399). Stats representing BlurOps/action use `--accent-secondary` (#2CBBFF).
+7. **Cyan (#01FEFF)** is reserved for special glow effects, decorative line accents, and very sparingly as a visual highlight. Never for body text.
 
 ### Gradient Specifications
 
 ```css
 /* Hero section subtle gradient */
 .hero-bg {
-  background: linear-gradient(180deg, #0F0F18 0%, #0A0A0F 100%);
+  background: linear-gradient(180deg, #0E0E1A 0%, #0A0A0F 100%);
 }
 
-/* CTA button gradient (optional, for extra emphasis) */
+/* CTA button gradient */
 .cta-primary {
-  background: linear-gradient(135deg, #FF6B35 0%, #FF8555 100%);
+  background: linear-gradient(135deg, #5271FF 0%, #6B87FF 100%);
 }
 
 /* Accent glow behind CTA */
 .cta-primary {
-  box-shadow: 0 0 40px rgba(255, 107, 53, 0.2), 0 4px 16px rgba(255, 107, 53, 0.15);
+  box-shadow: 0 0 40px rgba(82, 113, 255, 0.2), 0 4px 16px rgba(82, 113, 255, 0.15);
 }
 
 /* Section divider gradient line */
 .section-divider {
-  background: linear-gradient(90deg, transparent 0%, #FF6B35 50%, transparent 100%);
+  background: linear-gradient(90deg, transparent 0%, #2CBBFF 50%, transparent 100%);
   height: 1px;
+}
+
+/* Decorative glow line (sparingly) */
+.glow-line {
+  background: linear-gradient(90deg, transparent 0%, #01FEFF 50%, transparent 100%);
+  height: 1px;
+  opacity: 0.4;
 }
 ```
 
@@ -253,7 +267,7 @@ All spacing values are multiples of 8px for consistency and alignment.
 | Between major sections | 120px | 80px | 60px |
 | Section top/bottom padding | 96px | 64px | 48px |
 | Heading to first paragraph | 24px | 20px | 16px |
-| Between paragraphs | 24px | 24px | 20px |
+| Between paragraphs | 28px | 24px | 20px |
 | Between content blocks | 48px | 40px | 32px |
 | Between cards in a grid | 24px | 20px | 16px |
 
@@ -302,14 +316,14 @@ All spacing values are multiples of 8px for consistency and alignment.
 **Mobile (320px – 479px):**
 - Single column layout for all content
 - Full-width CTA buttons
-- Stacked stat cards (1 per row)
+- Stacked stat cards (2x2 grid)
 - Hamburger menu navigation
-- Pain quotes: show 6 of 12, expand to reveal rest
+- Pain quotes: show 6 of 8, expand to reveal rest
 - Before/After table: stacked cards instead of side-by-side
 - Curriculum weeks: accordion (collapsed by default)
 - Value stack: vertical card layout
 - FAQ: accordion (collapsed by default)
-- Font sizes at mobile minimum
+- Font sizes at mobile minimum (17px body)
 
 **Large phones (480px – 767px):**
 - Stat cards: 2-column grid
@@ -367,28 +381,29 @@ Mobile: Logo (left) | Hamburger (right) → slides in from right
 **Primary CTA (Apply Now):**
 ```css
 .cta-primary {
-  background: #FF6B35;
+  background: linear-gradient(135deg, #5271FF 0%, #6B87FF 100%);
   color: #FFFFFF;
   font-size: 1.125rem;       /* 18px */
   font-weight: 600;
   padding: 16px 40px;
-  border-radius: 8px;
+  border-radius: 10px;
   border: none;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.25s ease;
   min-height: 56px;
   min-width: 200px;
-  box-shadow: 0 0 30px rgba(255, 107, 53, 0.2);
+  box-shadow: 0 0 30px rgba(82, 113, 255, 0.2);
+  letter-spacing: 0.02em;
 }
 
 .cta-primary:hover {
-  background: #FF8555;
-  box-shadow: 0 0 40px rgba(255, 107, 53, 0.3);
-  transform: translateY(-1px);
+  background: linear-gradient(135deg, #6B87FF 0%, #7D96FF 100%);
+  box-shadow: 0 0 50px rgba(82, 113, 255, 0.35);
+  transform: translateY(-2px);
 }
 
 .cta-primary:active {
-  background: #E55A2B;
+  background: #4060E0;
   transform: translateY(0);
 }
 
@@ -407,27 +422,29 @@ Mobile: Logo (left) | Hamburger (right) → slides in from right
 ```css
 .cta-secondary {
   background: transparent;
-  color: #FF6B35;
-  border: 2px solid #FF6B35;
+  color: #5271FF;
+  border: 2px solid #5271FF;
   font-size: 1rem;
   font-weight: 600;
   padding: 14px 32px;
-  border-radius: 8px;
+  border-radius: 10px;
+  transition: all 0.25s ease;
 }
 
 .cta-secondary:hover {
-  background: rgba(255, 107, 53, 0.1);
-  border-color: #FF8555;
+  background: rgba(82, 113, 255, 0.1);
+  border-color: #6B87FF;
 }
 ```
 
 **CTA micro-text (below button):**
 ```css
 .cta-micro {
-  font-size: 0.875rem;
+  font-size: 0.9375rem;      /* 15px */
   color: var(--text-tertiary);
   margin-top: 12px;
   text-align: center;
+  line-height: 1.5;
 }
 ```
 
@@ -435,23 +452,23 @@ Mobile: Logo (left) | Hamburger (right) → slides in from right
 
 ```css
 .card {
-  background: var(--bg-secondary);       /* #12121A */
-  border: 1px solid var(--border-default); /* #1F1F2E */
-  border-radius: 12px;
-  padding: 32px;
-  transition: border-color 0.2s ease, background 0.2s ease;
+  background: var(--bg-secondary);       /* #10101A */
+  border: 1px solid var(--border-default); /* #1C1C32 */
+  border-radius: 14px;
+  padding: 36px;
+  transition: border-color 0.25s ease, background 0.25s ease;
 }
 
 .card:hover {
-  border-color: var(--border-hover);     /* #2E2E40 */
-  background: var(--bg-tertiary);        /* #1A1A24 */
+  border-color: var(--border-hover);     /* #2A2A48 */
+  background: var(--bg-tertiary);        /* #181828 */
 }
 
 /* Mobile */
 @media (max-width: 767px) {
   .card {
     padding: 24px;
-    border-radius: 10px;
+    border-radius: 12px;
   }
 }
 ```
@@ -462,27 +479,27 @@ Mobile: Logo (left) | Hamburger (right) → slides in from right
 .stat-card {
   background: var(--bg-secondary);
   border: 1px solid var(--border-default);
-  border-radius: 12px;
-  padding: 32px 24px;
+  border-radius: 14px;
+  padding: 36px 28px;
   text-align: center;
 }
 
 .stat-number {
-  font-size: var(--text-stat);          /* clamp(2.25rem, 4vw, 3rem) */
+  font-size: var(--text-stat);          /* clamp(2.375rem, 4.5vw, 3.25rem) */
   font-weight: 800;
   color: var(--error);                  /* #F87171 for pain stats */
   line-height: 1.1;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 .stat-label {
-  font-size: 0.875rem;
-  color: var(--text-tertiary);
-  line-height: 1.4;
+  font-size: var(--text-body-sm);       /* 15-16px */
+  color: var(--text-secondary);
+  line-height: 1.5;
 }
 
 .stat-source {
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   color: var(--text-muted);
   margin-top: 8px;
   font-style: italic;
@@ -493,27 +510,27 @@ Mobile: Logo (left) | Hamburger (right) → slides in from right
 
 ```css
 .pain-quote {
-  border-left: 3px solid var(--accent-primary); /* #FF6B35 */
-  padding: 16px 24px;
+  border-left: 3px solid var(--accent-secondary); /* #2CBBFF */
+  padding: 20px 28px;
   margin: 16px 0;
-  background: var(--bg-accent-subtle);   /* rgba(255, 107, 53, 0.08) */
-  border-radius: 0 8px 8px 0;
+  background: var(--bg-accent-subtle);   /* rgba(82, 113, 255, 0.07) */
+  border-radius: 0 10px 10px 0;
 }
 
 .pain-quote p {
-  font-size: 1rem;
+  font-size: var(--text-body);           /* 17-18px */
   color: var(--text-secondary);
   font-style: italic;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 .pain-quote cite {
-  font-size: 0.875rem;
+  font-size: var(--text-body-sm);
   color: var(--text-tertiary);
   font-style: normal;
   font-weight: 600;
   display: block;
-  margin-top: 8px;
+  margin-top: 10px;
 }
 ```
 
@@ -524,18 +541,18 @@ Mobile: Logo (left) | Hamburger (right) → slides in from right
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
-  border-radius: 12px;
+  border-radius: 14px;
   overflow: hidden;
   border: 1px solid var(--border-default);
 }
 
 .comparison-table th {
   background: var(--bg-tertiary);
-  padding: 16px 24px;
-  font-size: 0.875rem;
+  padding: 18px 28px;
+  font-size: var(--text-body-sm);
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.06em;
   color: var(--text-primary);
 }
 
@@ -543,9 +560,9 @@ Mobile: Logo (left) | Hamburger (right) → slides in from right
 .comparison-table th.after  { color: var(--success); }
 
 .comparison-table td {
-  padding: 16px 24px;
-  font-size: 1rem;
-  line-height: 1.5;
+  padding: 18px 28px;
+  font-size: var(--text-body);
+  line-height: 1.6;
   color: var(--text-secondary);
   border-bottom: 1px solid var(--border-default);
 }
@@ -556,11 +573,11 @@ Mobile: Logo (left) | Hamburger (right) → slides in from right
 ```css
 .faq-item {
   border-bottom: 1px solid var(--border-default);
-  padding: 24px 0;
+  padding: 28px 0;
 }
 
 .faq-question {
-  font-size: 1.125rem;
+  font-size: var(--text-h4);            /* 20-22px */
   font-weight: 600;
   color: var(--text-primary);
   cursor: pointer;
@@ -570,10 +587,10 @@ Mobile: Logo (left) | Hamburger (right) → slides in from right
 }
 
 .faq-answer {
-  font-size: 1rem;
+  font-size: var(--text-body);          /* 17-18px */
   color: var(--text-secondary);
-  line-height: 1.6;
-  padding-top: 16px;
+  line-height: 1.7;
+  padding-top: 18px;
   max-width: 720px;
 }
 ```
@@ -584,7 +601,6 @@ Mobile: Logo (left) | Hamburger (right) → slides in from right
 .sticky-cta-bar {
   position: fixed;
   bottom: 0;                /* mobile: bottom bar */
-  /* OR top: 0; for desktop: top bar */
   left: 0;
   right: 0;
   z-index: 999;
@@ -631,313 +647,263 @@ Mobile: Logo (left) | Hamburger (right) → slides in from right
 - Single column, text centered
 
 **Background:**
-- Subtle gradient: `linear-gradient(180deg, #0F0F18 0%, #0A0A0F 100%)`
+- Subtle gradient: `linear-gradient(180deg, #0E0E1A 0%, #0A0A0F 100%)`
 - Optional: very subtle grid pattern overlay at 3–5% opacity for depth
 - No hero image — the typography IS the hero
 
 **Content stack (top to bottom):**
-1. **Eyebrow tag** — uppercase, 14px, SemiBold, `--text-accent` (#FF6B35), letter-spacing 0.08em
-   - Example: `FOR AGENCY OWNERS DOING $200K–$750K WHO ARE DONE BEING THE BOTTLENECK`
-2. **Headline (H1)** — Display size (56px desktop / 36px mobile), ExtraBold, `--text-primary` (white)
+1. **Eyebrow tag** — uppercase, 15px, SemiBold, `--accent-secondary` (#2CBBFF), letter-spacing 0.1em
+   - Text: `A LIVE BOOTCAMP FOR 6-FIGURE FOUNDERS READY TO STOP RUNNING EVERYTHING`
+2. **Headline (H1)** — Display size (64px desktop / 40px mobile), ExtraBold, `--text-primary` (white)
    - Max-width: 900px, centered
-   - Recommended: "Remove Yourself as the Bottleneck in 4 Weeks"
-3. **Subheadline** — Body Large (18px), Regular, `--text-secondary` (off-white)
+   - Text: "Reimagine your business, that grows without you"
+3. **Subheadline** — Body Large (20px desktop / 18px mobile), Regular, `--text-secondary`
    - Max-width: 680px, centered
-   - `margin-top: 24px`
+   - `margin-top: 28px`
+   - Text: "Join 4 weeks of live sessions, build your SOPs with AI, install OKR dashboards, and walk away with a business that doesn't collapse the moment you close your laptop."
 4. **CTA Button** — Primary CTA, centered
-   - `margin-top: 40px`
-5. **Micro-text below CTA** — 14px, `--text-tertiary`
-   - Example: "Only 15 spots per cohort. Next cohort starts [DATE]."
-   - `margin-top: 12px`
-6. **Risk reducer** — 14px, `--text-tertiary`
-   - Example: "60-day money-back guarantee."
+   - `margin-top: 44px`
+   - Text: "Apply for the Next Cohort"
+5. **Micro-text below CTA** — 15px, `--text-tertiary`
+   - Text: "Join founders from agencies doing $200K-$750K/year."
+   - `margin-top: 14px`
+6. **Risk reducer** — 15px, `--text-tertiary`
+   - Text: "Backed by a 10-day guarantee — you either see results or you get a full refund."
    - `margin-top: 8px`
 
 **Spacing:**
-- Eyebrow to H1: 16px
-- H1 to subheadline: 24px
-- Subheadline to CTA: 40px
+- Eyebrow to H1: 20px
+- H1 to subheadline: 28px
+- Subheadline to CTA: 44px
 
 ### SECTION 2: TRUST BAR
 
 **Layout:**
-- Background: `--bg-secondary` (#12121A) to create visual separation from hero
+- Background: `--bg-secondary` (#10101A) to create visual separation from hero
 - Padding: 48px top/bottom (desktop), 32px (mobile)
 - Stat cards in a responsive grid
 
 **Grid:**
-- Desktop: 4 cards in a row (if 4 stats) or 3 in a row
-- Tablet: 2x2 grid
-- Mobile: 2x2 grid (or 1 column if space is tight)
+- Desktop: 4 cards in a row, evenly distributed with equal widths
+- Tablet: 2x2 grid, cards evenly spaced
+- Mobile: 2x2 grid
 - Gap: 24px between cards
 
 **Stat card structure:**
-- Number: `--text-stat` size, weight 800, colored per type (red for pain, orange for BlurOps, white for neutral)
-- Label: 14px, `--text-secondary`, max 2 lines
-- Source: 12px, `--text-muted`, italic
+- Number: `--text-stat` size, weight 800, colored per type
+- Label: 15px, `--text-secondary`, max 2 lines
+- Source: 13px, `--text-muted`, italic
 
-**Recommended 4 stats:**
-1. 69.6% — burnout rate (color: `--error`)
-2. 85% — believe it gets worse (color: `--error`)
-3. 90% — sell due to burnout (color: `--error`)
-4. 4 weeks — to build systems (color: `--accent-primary`)
+**4 stats (evenly distributed):**
+1. 69.6% — Worldwide burnout rate in marketing agencies (color: `--error`) *(Forecast.app)*
+2. 90% — Of agency owners under 55 sell due to burnout (color: `--error`) *(IA Magazine)*
+3. Only 36% — Say their agency "runs like a well-oiled machine" (color: `--error`) *(4As/PCI)*
+4. 1 in 5 — Small agency owners don't pay themselves a regular salary (color: `--error`) *(SAGA Q4 2024)*
 
 ### SECTION 3: PROBLEM + AMPLIFY
 
 **Layout:**
 - Background: `--bg-primary`
-- Two-part structure: intro text block, then pain quotes, then cost-of-inaction
+- Three-part structure: intro text block → pain quotes → cost-of-inaction table
 
 **Part A — Problem Statement:**
-- Section heading (H2): Left-aligned, max-width 720px
-- Intro paragraphs: Body Large (18px), max-width 680px
-- Recommended heading: "You're Successful. You're Exhausted. And Nobody Talks About That Combination."
+- Section heading (H2): Left-aligned or centered, max-width 800px
+- Heading: "You Built This Business to Be Free. Here's What No One Tells You About."
+- Intro paragraphs: Body Large (20px), `--text-secondary`, max-width 720px
+- Each paragraph well-spaced at 28px apart
 
 **Part B — Pain Quotes:**
-- Layout: vertically stacked quote cards with left orange border
-- Mobile: show first 6 quotes, "See more" button to expand remaining 6
-- Desktop: show all 12 or use a 2-column masonry layout
+- Layout: 2-column grid on desktop (cards evenly distributed), single column on mobile
+- Each quote uses the pain-quote component with left cyan border
+- Mobile: show first 6 quotes, "See more" button to expand remaining
+- Desktop: show all 8 quotes in 2-column layout, evenly distributed
+- Gap: 20px between cards
 
-**Part C — Cost of Inaction:**
-- Sub-heading (H3): "Here's what staying in this pattern costs you."
-- 4 blocks, each with an icon/emoji, a label (bold), and 2–3 sentence explanation
-  - Your Time — use `--error` accent
-  - Your Revenue — use `--error` accent
-  - Your Health — use `--error` accent
-  - Your Business Value — use `--error` accent
+**Part C — Cost of Inaction Table:**
+- Sub-heading (H3): "Let's be blunt about the numbers:"
+- Full-width card with `--bg-secondary` background
+- Table with 3 columns: "What it costs you" | "Per month" | "Per year"
+- Table cells use `--text-body` size (17-18px)
+- Pain values in `--error` color
+- Evenly distributed columns
 
-**Cost-of-Inaction Table:**
-- Use the comparison table component
-- Background: `--bg-secondary` within a card
-- Headers: bold, `--text-primary`
-- Data: `--text-secondary`
-
-**Bridge Statement:**
-- Max-width: 680px
-- Slightly larger text: 20px, italic, `--text-primary`
-- Optional: thin accent line above (`--accent-primary`, 60px wide, centered)
+**CTA #2:**
+- Centered, primary CTA button
+- Text: "Apply for the Next Cohort"
+- Micro-text: "Application takes 2 minutes. We'll confirm fit within 24 hours."
+- Risk reducer: "10-day money-back guarantee — you either build the systems or you pay nothing."
+- 48px spacing above and below
 
 ### SECTION 4: DREAM OUTCOME
 
 **Layout:**
 - Background: `--bg-secondary` (alternating from Section 3)
-- Two parts: visualization block + before/after table
+- Two parts: "Imagine If..." block + Before/After comparison
 
 **"Imagine If..." Block:**
-- Each "Imagine" paragraph starts with "Imagine" in `--accent-primary` (orange, bold)
+- Section heading (H2): "What you need is systems, we want you to imagine this"
+- Each "Imagine" paragraph starts with "Imagine" in `--accent-secondary` (#2CBBFF, bold)
 - Rest of paragraph in `--text-secondary`
-- Each paragraph has `margin-bottom: 24px`
+- Each paragraph has `margin-bottom: 28px`
 - Wrap in a max-width: 720px container
+- 4 imagine blocks, evenly spaced
+
+**Mid-section heading (H3):** "That's what it looks like — with BlurOps" in `--text-primary`
 
 **Before/After Table:**
-- Use comparison table component (defined in Section 6)
-- Desktop: side-by-side columns
+- Use comparison table component
+- Desktop: side-by-side columns, evenly distributed
 - Mobile: stacked cards — "BEFORE" card (with red tinted top border) followed by "AFTER" card (with green tinted top border)
+- 5 comparison rows, evenly distributed
 
-### SECTION 5: STORY + TRANSFORMATION (BLUR Framework)
+### SECTION 5: INTRODUCING BLUR FRAMEWORK
 
 **Layout:**
 - Background: `--bg-primary`
-- Three sub-sections: Failed Solutions Pattern → StoryBrand Reframe → BLUR Framework
+- Two sub-sections: StoryBrand Reframe → BLUR Framework explanation
 
-**Failed Solutions Pattern (Stages 1–5):**
-- Each stage is a card with:
-  - Stage number badge (small circle, `--bg-tertiary`, `--text-primary`)
-  - Stage title (H4, bold): e.g., "Stage 1: You hire someone to help."
-  - 1 paragraph description (Body, `--text-secondary`)
-- Cards stacked vertically with 24px gap
-- Optional: thin connecting line between stage badges (timeline visual)
+**StoryBrand Reframe:**
+- Section heading (H2): "Every Agency Owner Hits This Wall. We fix it in 4 steps, in 4 weeks."
+- Max-width: 720px
+- Intro text: Body Large (20px), `--text-secondary`
+- "You're not the problem here. You're the hero of this story."
 
-**BLUR Framework:**
-- 4 blocks, each representing B / L / U / R
+**Sub-heading (H3):** "You need the BLUR Framework"
+- Bridge text: Body text explaining the framework
+
+**BLUR Framework Visual:**
+- 4 blocks representing B / L / U / R, evenly distributed in a 2x2 grid on desktop, stacked on mobile
 - Each block:
-  - Letter: Large (48px), `--accent-primary` (orange), weight 800
-  - Label (H3): e.g., "Build Clarity"
-  - 1–2 paragraphs of description
-  - Italic closing line: `--text-tertiary`
-- Layout: stacked vertically on mobile, 2x2 grid on desktop (optional)
-- Each block background: `--bg-secondary` card with left border in `--accent-primary`
-
-**CTA #2:**
-- Centered, primary CTA button
-- Micro-text below
-- 48px spacing above and below
+  - Letter: Large (52px), `--accent-primary` (#5271FF), weight 800
+  - Label (H3): e.g., "Build Clarity" / "Layer in Systems" / "Units and Scores" / "Run and Track"
+  - 1-2 sentences of description in `--text-secondary`
+- Each block: `--bg-secondary` card with left border in `--accent-primary`
+- Equal sizing across all 4 cards, gap: 24px
 
 ### SECTION 6: CURRICULUM (Offer)
 
 **Layout:**
 - Background: `--bg-secondary`
-- 4 week cards
+- Section heading (H2): "Here's Exactly What Happens Inside BlurOps in 4 weeks"
+- Section subheadline: Body Large, `--text-secondary`, max-width 720px
 
 **Week Cards:**
-- Desktop: show all 4 visible, stacked vertically or in a 2x2 grid
+- Desktop: 2x2 grid, all 4 visible, evenly distributed with equal card heights
 - Mobile: accordion — only the week title visible, tap to expand
 - Tablet: tabs (Week 1 | Week 2 | Week 3 | Week 4)
+- Gap: 24px between cards
 
 **Each Week Card:**
-```
-┌────────────────────────────────────────────┐
-│  WEEK 1                        [B icon]    │
-│  ─────────────────────────────────         │
-│  BUILD CLARITY                             │
-│                                            │
-│  Theme: See the bottleneck. Define the     │
-│  destination. Set the targets.             │
-│                                            │
-│  WHAT YOU DO:                              │
-│  • Founder Vision Exercise...              │
-│  • Core Process Identification...          │
-│  • Founder Role Redesign...                │
-│  • 90-Day OKRs...                          │
-│                                            │
-│  WHAT YOU WALK AWAY WITH:                  │
-│  ✓ Founder Vision Map                      │
-│  ✓ 3-5 core processes identified           │
-│  ✓ Clear "stop doing" list                 │
-│  ✓ 90-day OKR set                          │
-│  ✓ OKR Dashboard — live and tracking       │
-└────────────────────────────────────────────┘
-```
-
 - Card background: `--bg-primary` (darker, to stand out against section bg)
-- Week number: Eyebrow style, `--accent-primary`
-- Title: H3, `--text-primary`
-- Theme: Body Small, `--text-tertiary`, italic
-- "What you do" items: Body, `--text-secondary`, with `•` bullet in `--accent-primary`
-- "Walk away with" items: Body, `--text-secondary`, with `✓` checkmark in `--success` (#34D399)
+- Week number: Eyebrow style, `--accent-secondary` (#2CBBFF)
+- Title (H3): `--text-primary`
+- Theme: Body text, `--text-tertiary`, italic
+- "What you do" items: Body text (17-18px), `--text-secondary`, with `•` bullet in `--accent-primary` (#5271FF)
+- "Walk away with" items: Body text (17-18px), `--text-secondary`, with `✓` checkmark in `--success` (#34D399)
+- All cards same height (use CSS Grid or flexbox stretch)
 
 **Master Deliverables List ("By the end of 4 weeks..."):**
 - Numbered list, 1–10
 - Each number: `--accent-primary`, weight 700
-- Each item: `--text-secondary`
-- Wrap in a card with slightly different background or border-accent
+- Each item: `--text-secondary`, Body text (17-18px)
+- Wrap in a card with `--bg-primary` background and `--border-accent` border
+- 2-column layout on desktop (5 items per column, evenly distributed), single column on mobile
 
 **CTA #3:** Centered, primary CTA
+- Text: "Yes — I Want to Build This"
+- Micro-text: "10 spots per cohort. Application takes 2 minutes."
+- Risk reducer: "10-day guarantee: Build the systems or get a full refund. Zero risk."
 
 ### SECTION 7: SOCIAL PROOF
 
 **Layout:**
 - Background: `--bg-primary`
-- Two rows: stat cards + founder pull quotes
+- Two rows: founder pull quotes + placeholder testimonials
 
-**Stat Cards:**
-- Same component as Trust Bar, but with more detail
-- Desktop: 5 in a row (or 3+2)
-- Mobile: horizontal swipe carousel, 1 card visible at a time
+**Section heading (H2):** "This Isn't a You Problem. It's an Industry Problem."
 
 **Founder Pull Quotes:**
-- Desktop: 3-column grid of quote cards
+- Desktop: 3-column grid of quote cards, evenly distributed
 - Tablet: 2-column grid
-- Mobile: horizontal swipe carousel
+- Mobile: single column stacked (or horizontal swipe carousel)
+- 5 quote cards
 - Each card:
-  - Large opening quotation mark " in `--accent-primary`, 48px, opacity 0.3
-  - Quote text: 16px, italic, `--text-secondary`
-  - Attribution: 14px, bold, `--text-primary` (name) + `--text-tertiary` (title)
+  - Large opening quotation mark " in `--accent-primary` (#5271FF), 48px, opacity 0.3
+  - Quote text: `--text-body` (17-18px), italic, `--text-secondary`
+  - Attribution: 15px, bold, `--text-primary` (name) + `--text-tertiary` (title)
   - Card background: `--bg-secondary`
+  - Equal card heights across all cards in the grid
+- Gap: 24px
 
-**Testimonials (when available):**
-- Larger cards than pull quotes
+**Placeholder Testimonials (3):**
+- Larger cards than pull quotes, full width or 1-column layout
 - Include photo placeholder (circular, 64px, with `--border-accent`)
-- Star rating: 5 stars in `--accent-primary`
-- Longer quote text
+- Longer quote text in `--text-body` (17-18px)
+- Card background: `--bg-secondary` with left border `--accent-secondary`
 
-### SECTION 8: WHO THIS IS FOR / NOT FOR
+### SECTION 8: VALUE STACK + PRICING
 
 **Layout:**
 - Background: `--bg-secondary`
-- Two-column layout on desktop (For | Not For), stacked on mobile
-
-**"This Is For You If..." Column:**
-- Background: subtle green tint — `rgba(52, 211, 153, 0.05)`
-- Left border: 3px solid `--success`
-- Each item: checkmark icon (✓) in `--success` + text in `--text-secondary`
-
-**"This Is NOT For You If..." Column:**
-- Background: subtle red tint — `rgba(248, 113, 113, 0.05)`
-- Left border: 3px solid `--error`
-- Each item: X icon (✕) in `--error` + text in `--text-secondary`
-
-**CTA #4:** Centered below both columns
-
-### SECTION 9: VALUE STACK + PRICING
-
-**Layout:**
-- Background: `--bg-primary`
 - Value stack table → competitor anchoring → ROI math → pricing card → guarantee
 
+**Section heading (H2):** "Everything You Get Inside BlurOps (and What It's Actually Worth)"
+
 **Value Stack Table:**
-- Full-width card with `--bg-secondary` background
+- Full-width card with `--bg-primary` background
 - Table with two columns: "What You Get" | "Individual Value"
 - Value column right-aligned, `--text-tertiary`
-- Total row: bold, `--text-primary`, larger font, `--accent-primary` for total number
-- Striped rows: alternate between `--bg-secondary` and `--bg-tertiary`
+- Total row: bold, `--text-primary`, larger font, `--accent-primary` (#5271FF) for total number
+- Striped rows: alternate between `--bg-primary` and `--bg-secondary`
+- Cell text: `--text-body` (17-18px)
 
 **Pricing Card (centered, prominent):**
-```
-┌─────────────────────────────────────────┐
-│           YOUR INVESTMENT               │
-│                                         │
-│           $2,997                         │
-│      (or 3 payments of $1,099)          │
-│                                         │
-│     [APPLY NOW — RISK FREE]            │
-│                                         │
-│    60-day money-back guarantee          │
-│    Next cohort starts [DATE]            │
-│    Only 15 spots available              │
-└─────────────────────────────────────────┘
-```
-- Card background: `--bg-secondary`
-- Border: 2px solid `--accent-primary`
-- Price: 48px, weight 800, `--text-primary`
-- Payment plan: 16px, `--text-tertiary`
+- Card background: `--bg-primary`
+- Border: 2px solid `--accent-primary` (#5271FF)
+- Price: 52px, weight 800, `--text-primary`
+- Increase note: "Increases to $3,499 in next cohort" — 16px, `--accent-secondary` (#2CBBFF)
 - Box-shadow: CTA glow effect
-- Max-width: 480px, centered
-
-**Guarantee Block:**
-- Bordered card with a shield/checkmark icon
-- Background: `--bg-accent-subtle`
-- Border: 1px solid `--accent-primary` at 30% opacity
-- H3 heading + paragraph text
+- Max-width: 520px, centered
+- CTA button inside the card
 
 **Competitor Anchoring:**
-- 4 blocks, each showing competitor + price + limitation
-- Layout: 2x2 grid (desktop), stacked (mobile)
-- Each block: card with `--bg-secondary`, struck-through price in `--text-muted`
+- Sub-heading (H3): "See how we compare with others (and win!)"
+- 4 cards, evenly distributed in 2x2 grid (desktop), stacked (mobile)
+- Each card: `--bg-primary`, competitor name + price in `--text-muted` (struck through) + limitation text in `--text-secondary`
+- Gap: 24px
 
 **ROI Math:**
-- Simple 3-line calculation
-- Numbers in `--accent-primary` or `--success`
-- Final line bold, larger font
+- Card with `--bg-primary` background
+- Key numbers in `--accent-secondary` (#2CBBFF) or `--success`
+- Final line bold, larger font (H3 size)
 
-### SECTION 10: FAQ
+**Guarantee Block:**
+- Card with `--bg-accent-subtle` background
+- Border: 1px solid `rgba(82, 113, 255, 0.3)`
+- H3 heading: "The BlurOps 10-Day Guarantee"
+- Body text (17-18px): guarantee details
+- Shield/checkmark icon in `--accent-primary`
 
-**Layout:**
-- Background: `--bg-secondary`
-- Accordion component (defined in Section 6 components)
-- Max-width: 800px, centered
-- 8 questions
+**CTA (Repeated):**
+- Primary CTA: "Apply Now — Risk Free"
+- Micro-text: "$1,599 (Increases to $3,499 in next cohort). Backed by a 10-day money-back guarantee."
+- Urgency: "Next cohort starts on March 20. Only 10 spots available."
 
-**Desktop:** All collapsed by default. Click to expand one at a time (or allow multiple).
-**Mobile:** Same, accordion.
-
-### SECTION 11: FOUNDER CREDIBILITY
+### SECTION 9: FAQ / OBJECTION HANDLER
 
 **Layout:**
 - Background: `--bg-primary`
-- Photo placeholder (left) + text (right) on desktop
-- Stacked on mobile (photo on top, text below)
+- Accordion component, max-width: 800px, centered
+- 6 questions
 
-**Photo:**
-- Circular or rounded-square (border-radius: 16px)
-- 200px × 200px on desktop, 120px × 120px on mobile
-- Border: 2px solid `--accent-primary`
+**Section heading (H2):** "Got Questions? (You're Probably Thinking One of These Right Now)"
 
-**Text:**
-- H2 heading
-- 2–3 paragraphs, max-width: 600px
+**Desktop & Mobile:** All collapsed by default. Click to expand one at a time.
+- FAQ question text: `--text-h4` (20-22px), weight 600
+- FAQ answer text: `--text-body` (17-18px), `--text-secondary`, line-height 1.7
+- Evenly spaced items with 28px padding between
 
-### SECTION 12: FINAL CTA
+### SECTION 10: FINAL CTA + RESPONSE
 
 **Layout:**
 - Background: gradient from `--bg-secondary` to `--bg-primary`
@@ -945,28 +911,30 @@ Mobile: Logo (left) | Hamburger (right) → slides in from right
 - Maximum emotional impact — this is the last shot
 
 **Content stack:**
-1. H2 headline (transformation restatement) — display-sized, bold
-2. 1 paragraph — body large, `--text-secondary`
-3. Final testimonial in a highlighted quote card
-4. Primary CTA — slightly larger than previous CTAs (padding: 20px 48px)
-5. Price + guarantee micro-text
-6. Urgency line: "15 spots per cohort. Next cohort starts [DATE]."
-7. Application process steps (4 numbered steps, compact)
+1. **H2 headline** (transformation restatement): "Four Weeks From Now, Your Business Looks Completely Different. Or Nothing Changes. Your Call."
+   - Display-sized (H1 scale), bold
+2. **1 paragraph** — Body Large (20px), `--text-secondary`, max-width 680px
+3. **Final testimonial** in a highlighted quote card with left `--accent-primary` border
+4. **Primary CTA** — slightly larger than previous CTAs (padding: 20px 52px)
+   - Text: "Apply Now — Start Building Your Systems"
+5. **Price + guarantee micro-text:** "$1,599 (Increases to $3,499 in next cohort). 10-day money-back guarantee."
+6. **Urgency line:** "Each cohort is limited to 10 founders."
 
 **Application Steps:**
-- Horizontal timeline on desktop (4 dots connected by a line)
+- Horizontal timeline on desktop (5 dots connected by a line), evenly distributed
 - Vertical timeline on mobile
-- Each step: number circle (`--accent-primary` background, white text) + short description
+- Each step: number circle (`--accent-primary` background, white text) + short description in `--text-secondary`
+- 5 steps, evenly distributed
 
 ### FOOTER
 
 **Layout:**
-- Background: `--bg-primary` (or slightly darker)
+- Background: `#08080C` (slightly darker than bg-primary)
 - Border-top: 1px solid `--border-default`
 - Padding: 48px top, 32px bottom
 
 **Content:**
-- Logo (left)
+- Logo (left/center)
 - Copyright + legal links (center or below)
 - Social links (right) — icons only, `--text-tertiary`, hover → `--text-primary`
 - Keep minimal — this is a landing page, not a multi-page site
@@ -979,39 +947,40 @@ Mobile: Logo (left) | Hamburger (right) → slides in from right
 
 ```
 <h1>  → ONE per page — Hero headline
-        Example: "Remove Yourself as the Bottleneck in 4 Weeks"
+        "Reimagine your business, that grows without you"
 
 <h2>  → Section headings (one per major section)
-        Examples:
-        "You're Successful. You're Exhausted."
-        "What Changes When You're No Longer the Bottleneck"
-        "The BLUR Framework"
-        "What You Build in 4 Weeks"
-        "The Investment"
-        "FAQ"
+        "You Built This Business to Be Free. Here's What No One Tells You About."
+        "What you need is systems, we want you to imagine this"
+        "Every Agency Owner Hits This Wall."
+        "Here's Exactly What Happens Inside BlurOps in 4 weeks"
+        "This Isn't a You Problem. It's an Industry Problem."
+        "Everything You Get Inside BlurOps"
+        "Got Questions?"
+        "Four Weeks From Now, Your Business Looks Completely Different."
 
 <h3>  → Subsections within H2 sections
-        Examples:
-        "Your Time" / "Your Revenue" / "Your Health"
-        "Week 1: Build Clarity" / "Week 2: Layer in Systems"
+        "Let's be blunt about the numbers"
+        "That's what it looks like — with BlurOps"
+        "You need the BLUR Framework"
+        "Week 1: Build Clarity" / "Week 2: Layer in Systems" / etc.
+        "The BlurOps 10-Day Guarantee"
         Individual FAQ questions
 
 <h4>  → Minor headings within H3 sections
-        Examples:
         "What You Do" / "What You Walk Away With"
-        Individual stages in the "failed solutions" pattern
 ```
 
 **Rules:**
 - Never skip heading levels (no H1 → H3)
 - One H1 per page
-- Headings must be descriptive, not generic ("Our Solution" is bad; "The BLUR Framework" is good)
+- Headings must be descriptive, not generic
 - Include target keywords naturally: "agency operations," "founder bottleneck," "AI-ready SOPs"
 
 ### Meta Tags
 
 ```html
-<title>BlurOps — Remove Yourself as the Bottleneck in 4 Weeks | Agency Operations Bootcamp</title>
+<title>BlurOps — Reimagine Your Business That Grows Without You | 4-Week Agency Bootcamp</title>
 <meta name="description" content="A 4-week live bootcamp for agency founders doing $200K-$750K. Build documented systems, AI-ready SOPs, and OKR dashboards. Stop being the bottleneck.">
 <meta name="keywords" content="agency operations, founder burnout, SOP creation, agency systems, AI operations, OKR dashboard, agency scaling">
 ```
@@ -1019,7 +988,7 @@ Mobile: Logo (left) | Hamburger (right) → slides in from right
 ### Open Graph Tags
 
 ```html
-<meta property="og:title" content="BlurOps — Remove Yourself as the Bottleneck in 4 Weeks">
+<meta property="og:title" content="BlurOps — Reimagine Your Business That Grows Without You">
 <meta property="og:description" content="The live bootcamp for burnt-out agency founders. Build systems. Reclaim 20+ hours/week. In 4 weeks.">
 <meta property="og:image" content="[1200x630 social share image]">
 <meta property="og:type" content="website">
@@ -1030,7 +999,7 @@ Mobile: Logo (left) | Hamburger (right) → slides in from right
 
 | Requirement | Standard | BlurOps Implementation |
 |-------------|----------|------------------------|
-| Text contrast (normal) | 4.5:1 minimum | All body text ≥ 14.8:1 ✅ |
+| Text contrast (normal) | 4.5:1 minimum | All body text ≥ 14.2:1 ✅ |
 | Text contrast (large) | 3:1 minimum | All headings ≥ 19.5:1 ✅ |
 | Touch target size | 44x44px minimum | All buttons ≥ 52px height ✅ |
 | Focus indicators | Visible focus ring | 2px solid `--accent-primary` with 4px offset |
@@ -1058,15 +1027,16 @@ Animations should feel purposeful, not decorative. This audience is busy and ske
 
 | Element | Animation | Duration | Easing |
 |---------|-----------|----------|--------|
-| Page scroll reveal | Fade up (20px) + opacity 0→1 | 600ms | ease-out |
-| CTA button hover | Scale 1.02 + shadow expand | 200ms | ease |
+| Page scroll reveal | Fade up (24px) + opacity 0→1 | 600ms | ease-out |
+| Staggered card reveal | Fade up with 100ms stagger per card | 500ms each | ease-out |
+| CTA button hover | Scale 1.02 + shadow expand + translateY(-2px) | 250ms | ease |
 | CTA button press | Scale 0.98 | 100ms | ease |
 | Nav background | Opacity 0→1 on scroll | 300ms | ease |
 | Accordion expand | Height auto + fade in | 300ms | ease-in-out |
 | Sticky bar enter | Slide in from bottom/top | 300ms | ease-out |
-| Carousel slide | Translate-X | 400ms | ease-in-out |
 | Stat number | Count up from 0 | 1500ms | ease-out (on scroll into view) |
 | Tab switch | Fade + slight slide | 200ms | ease |
+| Card hover | Border-color transition + subtle lift | 250ms | ease |
 
 ### Rules
 
@@ -1076,6 +1046,7 @@ Animations should feel purposeful, not decorative. This audience is busy and ske
 4. **No parallax scrolling.** It's distracting and often causes performance issues on mobile.
 5. **No auto-playing carousels.** All carousels are user-controlled (swipe or click).
 6. **Maximum of 3 elements animating simultaneously** in any viewport. More creates visual chaos.
+7. **Stagger card reveals** when multiple cards enter the viewport — 100ms delay between each for a polished cascading effect.
 
 ---
 
@@ -1113,51 +1084,52 @@ Animations should feel purposeful, not decorative. This audience is busy and ske
 :root {
   /* Colors - Backgrounds */
   --bg-primary: #0A0A0F;
-  --bg-secondary: #12121A;
-  --bg-tertiary: #1A1A24;
-  --bg-elevated: #22222E;
-  --bg-accent-subtle: rgba(255, 107, 53, 0.08);
+  --bg-secondary: #10101A;
+  --bg-tertiary: #181828;
+  --bg-elevated: #20203A;
+  --bg-accent-subtle: rgba(82, 113, 255, 0.07);
 
   /* Colors - Text */
   --text-primary: #FFFFFF;
-  --text-secondary: #E0E0E6;
-  --text-tertiary: #9999A8;
-  --text-muted: #666680;
-  --text-accent: #FF6B35;
+  --text-secondary: #D8D8E8;
+  --text-tertiary: #9090A8;
+  --text-muted: #606080;
+  --text-accent: #5271FF;
 
   /* Colors - Accent */
-  --accent-primary: #FF6B35;
-  --accent-primary-hover: #FF8555;
-  --accent-primary-active: #E55A2B;
-  --accent-primary-glow: rgba(255, 107, 53, 0.25);
-  --accent-secondary: #6B46C1;
-  --accent-secondary-hover: #7C5CD0;
+  --accent-primary: #5271FF;
+  --accent-primary-hover: #6B87FF;
+  --accent-primary-active: #4060E0;
+  --accent-primary-glow: rgba(82, 113, 255, 0.25);
+  --accent-secondary: #2CBBFF;
+  --accent-secondary-hover: #50CCFF;
+  --accent-tertiary: #01FEFF;
 
   /* Colors - Borders */
-  --border-default: #1F1F2E;
-  --border-hover: #2E2E40;
-  --border-accent: rgba(255, 107, 53, 0.3);
-  --divider: #1A1A24;
+  --border-default: #1C1C32;
+  --border-hover: #2A2A48;
+  --border-accent: rgba(82, 113, 255, 0.3);
+  --divider: #181828;
 
   /* Colors - Semantic */
   --success: #34D399;
   --warning: #FBBF24;
   --error: #F87171;
-  --info: #60A5FA;
+  --info: #2CBBFF;
 
   /* Typography */
   --font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --text-display: clamp(2.25rem, 5vw, 3.5rem);
-  --text-h1: clamp(2rem, 4vw, 3rem);
-  --text-h2: clamp(1.625rem, 3vw, 2.25rem);
-  --text-h3: clamp(1.25rem, 2.5vw, 1.5rem);
-  --text-h4: clamp(1.125rem, 2vw, 1.25rem);
-  --text-body-lg: clamp(1rem, 1.5vw, 1.125rem);
-  --text-body: 1rem;
-  --text-body-sm: 0.875rem;
-  --text-caption: 0.75rem;
-  --text-eyebrow: clamp(0.8125rem, 1.2vw, 0.875rem);
-  --text-stat: clamp(2.25rem, 4vw, 3rem);
+  --text-display: clamp(2.5rem, 5.5vw, 4rem);
+  --text-h1: clamp(2.25rem, 4.5vw, 3.25rem);
+  --text-h2: clamp(1.875rem, 3.5vw, 2.5rem);
+  --text-h3: clamp(1.375rem, 2.5vw, 1.75rem);
+  --text-h4: clamp(1.25rem, 2vw, 1.375rem);
+  --text-body-lg: clamp(1.125rem, 1.6vw, 1.25rem);
+  --text-body: clamp(1.0625rem, 1.4vw, 1.125rem);
+  --text-body-sm: clamp(0.9375rem, 1.2vw, 1rem);
+  --text-caption: 0.8125rem;
+  --text-eyebrow: clamp(0.8125rem, 1.2vw, 0.9375rem);
+  --text-stat: clamp(2.375rem, 4.5vw, 3.25rem);
 
   /* Spacing */
   --space-1: 4px;
@@ -1178,13 +1150,13 @@ Animations should feel purposeful, not decorative. This audience is busy and ske
   --container-max: 1200px;
   --content-max: 720px;
   --radius-sm: 6px;
-  --radius-md: 8px;
-  --radius-lg: 12px;
-  --radius-xl: 16px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
 
   /* Transitions */
   --transition-fast: 100ms ease;
-  --transition-default: 200ms ease;
+  --transition-default: 250ms ease;
   --transition-slow: 300ms ease;
   --transition-reveal: 600ms ease-out;
 }
@@ -1194,17 +1166,20 @@ Animations should feel purposeful, not decorative. This audience is busy and ske
 
 ## Final Notes
 
-This design system was built specifically for the BlurOps landing page and its target audience of burnt-out agency founders. Every decision — from the near-black background to the orange accent, from the Inter font to the 8px spacing grid — was chosen based on research into conversion optimization, color psychology, responsive design best practices, and the specific emotional needs of the ICP.
+This design system was built specifically for the BlurOps landing page and its target audience of burnt-out agency founders. Every decision — from the near-black background to the electric blue accent, from the 18px body text to the 8px spacing grid — was chosen based on research into conversion optimization, color psychology, responsive design best practices, and the specific emotional needs of the ICP.
 
 **Key conversion drivers in this design:**
 
 1. **Dark premium aesthetic** builds immediate trust and differentiates from typical "guru" course pages
-2. **Orange CTAs on dark background** create maximum contrast and visibility at every scroll depth
-3. **Generous whitespace** signals organization and calm — the exact feeling this audience craves
-4. **Single-column text** at 720px max-width ensures comfortable reading without eye fatigue
-5. **5 CTA placements** across the page ensure no visitor has to scroll far to take action
-6. **Mobile-first responsive** captures the 60%+ of traffic arriving from social and email
-7. **Red for pain stats, green for outcomes** creates unconscious before/after emotional contrast
-8. **Accordion patterns on mobile** prevent scroll fatigue on a long-form sales page
+2. **Blue CTAs on dark background** create maximum contrast and visibility while signaling trust and professionalism
+3. **Cyan (#2CBBFF) secondary accents** add energy and a modern, tech-forward feel without overwhelming
+4. **Larger body text (18px default)** ensures comfortable, effortless reading for a busy audience
+5. **Generous whitespace** signals organization and calm — the exact feeling this audience craves
+6. **Single-column text** at 720px max-width ensures comfortable reading without eye fatigue
+7. **5 CTA placements** across the page ensure no visitor has to scroll far to take action
+8. **Mobile-first responsive** captures the 60%+ of traffic arriving from social and email
+9. **Red for pain stats, green for outcomes** creates unconscious before/after emotional contrast
+10. **Evenly distributed card grids** create visual balance and professional polish across all sections
+11. **Accordion patterns on mobile** prevent scroll fatigue on a long-form sales page
 
 Use this document as the single source of truth for every design and development decision on the BlurOps landing page.
